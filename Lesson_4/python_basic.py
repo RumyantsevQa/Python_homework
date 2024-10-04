@@ -61,5 +61,3 @@ print(my_tuple.count(3)) #посчитает сколько объектов (н
 my_dict = {'key': 'value', 'two': 'value2', 'three': 3} #ключ: значение
 print(my_dict['key'])
 print(len(my_dict)) #скажет сколько объектов в словаре
-
-rrrt
