@@ -18,7 +18,7 @@
 # print(lll[1:4])
 # print(lll[:2])
 # print(lll[3:])
-# print(lll[1::2])
+# print(lll[1::2]) # после :: указывается шаг движения
 # print(lll[:])
 # print(lll[::-1])
 # print(lll[::-2])
@@ -46,6 +46,26 @@
 # print(txt.upper()) #Делает все буквы большими
 # print(txt.lower()) #Делает все буквы маленькими
 
-text = "ThIs tExt wiTh meSsEd uP CaPITalIZatiOn!"
-string_index = text.index('CaPITalIZatiOn')
-print(text[:string_index].lower() + text[string_index:].upper())
+# text = "ThIs tExt wiTh meSsEd uP CaPITalIZatiOn!"
+# string_index = text.index('CaPITalIZatiOn') #
+# print(text[:string_index].lower() + text[string_index:].upper())
+
+# data = "12,3"
+# data = data.replace(',', '.')
+# print(data)
+
+# txt = ' admin '
+# txt = txt.strip() #убирает лишние пробелы по бокам
+# print(txt)
+
+# text = '"name"'
+# text = text.strip('"') #убирает лишние кавычки в "name"
+# print(text)
+
+my_string = 'some little text'
+list_from_text = my_string.split() #приобразует в список (List)
+print(list_from_text)
+
+my_string2 = 'some,little,text'
+list_from_text_2 = my_string2.split(',') #разделяет запятыми
+print(list_from_text_2)
