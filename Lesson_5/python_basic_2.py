@@ -62,10 +62,30 @@
 # text = text.strip('"') #убирает лишние кавычки в "name"
 # print(text)
 
-my_string = 'some little text'
-list_from_text = my_string.split() #приобразует в список (List)
-print(list_from_text)
+# my_string = 'some little text'
+# list_from_text = my_string.split() #приобразует в список (List)
+# print(list_from_text)
+#
+# my_string2 = 'some,little,text'
+# list_from_text_2 = my_string2.split(',') #разделяет запятыми
+# print(list_from_text_2)
 
-my_string2 = 'some,little,text'
-list_from_text_2 = my_string2.split(',') #разделяет запятыми
-print(list_from_text_2)
+# languages = ['Python', 'Java', 'Ruby']
+# print(languages)
+# languages = ', '.join(languages) #преобразует(разделяет) и объединяет
+# print(languages)
+
+#подстановка
+# a = 'one'
+# b = 'two'
+# my_text = 'First world is %s, second world is %s' #подстановка из переменных
+# print(my_text %(a, b))
+
+#string format
+# my_text = 'First world is {0}, second world is {1}'
+# my_text = 'First world is {1}, second world is {0}'
+# print(my_text.format(a, b))
+#
+# #f-string
+# my_text = f'First world is {a}, second world is {b}'
+# print(my_text)
