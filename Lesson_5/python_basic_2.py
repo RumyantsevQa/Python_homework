@@ -81,7 +81,7 @@ b = 'two'
 my_text = 'First world is %s, second world is %s' #подстановка из переменных
 print(my_text %(a, b))
 
-#string format
+##string format
 my_text = 'First world is {0}, second world is {1}'
 my_text = 'First world is {1}, second world is {0}'
 print(my_text.format(a, b))
